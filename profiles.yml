@@ -1,0 +1,10 @@
+Text
+my_bigquery_profile:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: dbt-udemy-418317
+      dataset: dbt-udemy-418317.Marketplace
+      threads: 1
